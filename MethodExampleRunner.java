@@ -1,5 +1,7 @@
 public class MethodExampleRunner {
     public static void main(String[] args) {
+        // MethodExample1 Block
+        System.out.println("===============*1*==============");
         MethodExample1.carName(1, "BMW");
         MethodExample1.carName("BMW", 1000);
         MethodExample1.carName("ABHISHEK");
@@ -20,74 +22,83 @@ public class MethodExampleRunner {
         MethodExample1.carName(56789L, "Henry");
         MethodExample1.carName(8, 4.5f, "McLaren");
         MethodExample1.carName(3.2f, "Koenigsegg", 120000);
-        System.out.println("===============*1*==============");
+        MethodExample1.carName("array element 1");
         System.out.println("=============================");
-        MethodExample2.carName2(1, "BMW");
-        MethodExample2.carName2("BMW", 1000);
-        MethodExample2.carName2("ABHISHEK");
-        MethodExample2.carName2(2, "Audi", 5);
-        MethodExample2.carName2("Mercedes", 50000, 4);
-        MethodExample2.carName2("John", "Doe");
-        MethodExample2.carName2(4, 3, "Tesla");
-        MethodExample2.carName2("Ferrari", 200000, 220.5);
-        MethodExample2.carName2("Elon", 300.5);
-        MethodExample2.carName2(5, 180.2, "Lamborghini");
-        MethodExample2.carName2(250.5, "Porsche", 75000);
-        MethodExample2.carName2("Steve", 'J');
-        MethodExample2.carName2(6, "Jaguar", 9876543210L);
-        MethodExample2.carName2("Bugatti", 1234567890L, 999999);
-        MethodExample2.carName2('M', "Mike");
-        MethodExample2.carName2(29876543210L, 7, "Rolls Royce");
-        MethodExample2.carName2("Aston Martin", 1234567890L, 9.5f);
-        MethodExample2.carName2(56789L, "Henry");
-        MethodExample2.carName2(8, 4.5f, "McLaren");
-        MethodExample2.carName2(3.2f, "Koenigsegg", 120000);
+
+        // MethodExample2 Block
         System.out.println("===============*2*==============");
+        MethodExample2.carName2(10, "Toyota");
+        MethodExample2.carName2("Toyota", 2000);
+        MethodExample2.carName2("PRIYA");
+        MethodExample2.carName2(3, "Honda", 6);
+        MethodExample2.carName2("Volvo", 60000, 5);
+        MethodExample2.carName2("Alice", "Smith");
+        MethodExample2.carName2(5, 4, "Rivian");
+        MethodExample2.carName2("Maserati", 300000, 330.5);
+        MethodExample2.carName2("Bill", 400.5);
+        MethodExample2.carName2(6, 200.2, "Bentley");
+        MethodExample2.carName2(350.5, "Lotus", 85000);
+        MethodExample2.carName2("David", 'K');
+        MethodExample2.carName2(7, "Subaru", 1234567891L);
+        MethodExample2.carName2("Pagani", 2345678901L, 888888);
+        MethodExample2.carName2('N', "Nick");
+        MethodExample2.carName2(19876543210L, 8, "Maybach");
+        MethodExample2.carName2("Alpine", 2345678901L, 10.5f);
+        MethodExample2.carName2(66789L, "Grace");
+        MethodExample2.carName2(9, 5.5f, "Rimac");
+        MethodExample2.carName2(4.2f, "Lykan", 130000);
+        MethodExample2.carName2("array element 2");
         System.out.println("=============================");
-        MethodExample3.carName2(1, "BMW");
-        MethodExample3.carName2("BMW", 1000);
-        MethodExample3.carName2("ABHISHEK");
-        MethodExample3.carName2(2, "Audi", 5);
-        MethodExample3.carName2("Mercedes", 50000, 4);
-        MethodExample3.carName2("John", "Doe");
-        MethodExample3.carName2(4, 3, "Tesla");
-        MethodExample3.carName2("Ferrari", 200000, 220.5);
-        MethodExample3.carName2("Elon", 300.5);
-        MethodExample3.carName2(5, 180.2, "Lamborghini");
-        MethodExample3.carName2(250.5, "Porsche", 75000);
-        MethodExample3.carName2("Steve", 'J');
-        MethodExample3.carName2(6, "Jaguar", 9876543210L);
-        MethodExample3.carName2("Bugatti", 1234567890L, 999999);
-        MethodExample3.carName2('M', "Mike");
-        MethodExample3.carName2(29876543210L, 7, "Rolls Royce");
-        MethodExample3.carName2("Aston Martin", 1234567890L, 9.5f);
-        MethodExample3.carName2(56789L, "Henry");
-        MethodExample3.carName2(8, 4.5f, "McLaren");
-        MethodExample3.carName2(3.2f, "Koenigsegg", 120000);
+
+        // MethodExample3 Block
         System.out.println("===============*3*==============");
+        MethodExample3.carName2(20, "Nissan");
+        MethodExample3.carName2("Nissan", 3000);
+        MethodExample3.carName2("ROHAN");
+        MethodExample3.carName2(4, "Hyundai", 7);
+        MethodExample3.carName2("Lexus", 70000, 6);
+        MethodExample3.carName2("Eva", "Brown");
+        MethodExample3.carName2(6, 5, "Lucid");
+        MethodExample3.carName2("Lamborghini", 400000, 440.5);
+        MethodExample3.carName2("Charlie", 500.5);
+        MethodExample3.carName2(7, 220.2, "RollsRoyce");
+        MethodExample3.carName2(450.5, "Caterham", 95000);
+        MethodExample3.carName2("Fiona", 'L');
+        MethodExample3.carName2(8, "Mazda", 2345678912L);
+        MethodExample3.carName2("Koenigsegg", 3456789012L, 777777);
+        MethodExample3.carName2('O', "Olivia");
+        MethodExample3.carName2(29876543210L, 9, "Spyker");
+        MethodExample3.carName2("Ariel", 3456789012L, 11.5f);
+        MethodExample3.carName2(76789L, "Isaac");
+        MethodExample3.carName2(10, 6.5f, "Donkervoort");
+        MethodExample3.carName2(5.2f, "W Motors", 140000);
+        MethodExample3.carName2("array element 3");
         System.out.println("=============================");
-        MethodExample4.carName2(1, "BMW");
-        MethodExample4.carName2("BMW", 1000);
-        MethodExample4.carName2("ABHISHEK");
-        MethodExample4.carName2(2, "Audi", 5);
-        MethodExample4.carName2("Mercedes", 50000, 4);
-        MethodExample4.carName2("John", "Doe");
-        MethodExample4.carName2(4, 3, "Tesla");
-        MethodExample4.carName2("Ferrari", 200000, 220.5);
-        MethodExample4.carName2("Elon", 300.5);
-        MethodExample4.carName2(5, 180.2, "Lamborghini");
-        MethodExample4.carName2(250.5, "Porsche", 75000);
-        MethodExample4.carName2("Steve", 'J');
-        MethodExample4.carName2(6, "Jaguar", 9876543210L);
-        MethodExample4.carName2("Bugatti", 1234567890L, 999999);
-        MethodExample4.carName2('M', "Mike");
-        MethodExample4.carName2(29876543210L, 7, "Rolls Royce");
-        MethodExample4.carName2("Aston Martin", 1234567890L, 9.5f);
-        MethodExample4.carName2(56789L, "Henry");
-        MethodExample4.carName2(8, 4.5f, "McLaren");
-        MethodExample4.carName2(3.2f, "Koenigsegg", 120000);
         System.out.println("===============*4*==============");
+       
+        MethodExample4.carName2(30, "Kia");
+        MethodExample4.carName2("Kia", 4000);
+        MethodExample4.carName2("NEHA");
+        MethodExample4.carName2(5, "Ford", 8);
+        MethodExample4.carName2("Infiniti", 80000, 7);
+        MethodExample4.carName2("George", "White");
+        MethodExample4.carName2(7, 6, "Polestar");
+        MethodExample4.carName2("Pagani", 500000, 550.5);
+        MethodExample4.carName2("Diana", 600.5);
+        MethodExample4.carName2(8, 240.2, "Duesenberg");
+        MethodExample4.carName2(550.5, "Ultima", 105000);
+        MethodExample4.carName2("Hannah", 'M');
+        MethodExample4.carName2(9, "Suzuki", 3456789123L);
+        MethodExample4.carName2("Gumpert", 4567890123L, 666666);
+        MethodExample4.carName2('P', "Peter");
+        MethodExample4.carName2(39876543210L, 10, "Bristol");
+        MethodExample4.carName2("Radical", 4567890123L, 12.5f);
+        MethodExample4.carName2(86789L, "Jacob");
+        MethodExample4.carName2(11, 7.5f, "Caparo");
+        MethodExample4.carName2(6.2f, "HTT Pléthore", 150000);
+        MethodExample4.carName2("array element 4");
         System.out.println("=============================");
+        System.out.println("===============*4*==============");z
         MethodExample5.carName2(1, "BMW");
         MethodExample5.carName2("BMW", 1000);
         MethodExample5.carName2("ABHISHEK");
@@ -108,6 +119,7 @@ public class MethodExampleRunner {
         MethodExample5.carName2(56789L, "Henry");
         MethodExample5.carName2(8, 4.5f, "McLaren");
         MethodExample5.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample5.carName2("array element 5");
         System.out.println("==============*5*==============");
         System.out.println("=============================");
         MethodExample6.carName2(1, "BMW");
@@ -130,6 +142,7 @@ public class MethodExampleRunner {
         MethodExample6.carName2(56789L, "Henry");
         MethodExample6.carName2(8, 4.5f, "McLaren");
         MethodExample6.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample6.carName2("array element 6");
         System.out.println("==============*6*===============");
         System.out.println("=============================");
         MethodExample7.carName2(1, "BMW");
@@ -152,6 +165,7 @@ public class MethodExampleRunner {
         MethodExample7.carName2(56789L, "Henry");
         MethodExample7.carName2(8, 4.5f, "McLaren");
         MethodExample7.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample7.carName2("array element 7");
         System.out.println("==============*7*===============");
         System.out.println("=============================");
         MethodExample8.carName2(1, "BMW");
@@ -174,6 +188,7 @@ public class MethodExampleRunner {
         MethodExample8.carName2(56789L, "Henry");
         MethodExample8.carName2(8, 4.5f, "McLaren");
         MethodExample8.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample8.carName2("array element 8");
         System.out.println("==============*8*===============");
         System.out.println("=============================");
         MethodExample9.carName2(1, "BMW");
@@ -196,6 +211,7 @@ public class MethodExampleRunner {
         MethodExample9.carName2(56789L, "Henry");
         MethodExample9.carName2(8, 4.5f, "McLaren");
         MethodExample9.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample9.carName2("array element 9");
         System.out.println("==============*9*===============");
         System.out.println("=============================");
         MethodExample10.carName2(1, "BMW");
@@ -218,6 +234,7 @@ public class MethodExampleRunner {
         MethodExample10.carName2(56789L, "Henry");
         MethodExample10.carName2(8, 4.5f, "McLaren");
         MethodExample10.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample10.carName2("array element 10");
         System.out.println("==============*10*===============");
         System.out.println("=============================");
         MethodExample11.carName2(1, "BMW");
@@ -240,6 +257,7 @@ public class MethodExampleRunner {
         MethodExample11.carName2(56789L, "Henry");
         MethodExample11.carName2(8, 4.5f, "McLaren");
         MethodExample11.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample11.carName2("array element 11");
         System.out.println("==============*11*===============");
         System.out.println("=============================");
         MethodExample12.carName2(1, "BMW");
@@ -262,6 +280,7 @@ public class MethodExampleRunner {
         MethodExample12.carName2(56789L, "Henry");
         MethodExample12.carName2(8, 4.5f, "McLaren");
         MethodExample12.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample12.carName2("array element 12");
         System.out.println("==============*12*===============");
         System.out.println("=============================");
         MethodExample13.carName2(1, "BMW");
@@ -284,7 +303,7 @@ public class MethodExampleRunner {
         MethodExample13.carName2(56789L, "Henry");
         MethodExample13.carName2(8, 4.5f, "McLaren");
         MethodExample13.carName2(3.2f, "Koenigsegg", 120000);
-
+        MethodExample13.carName2("array element 13");
         System.out.println("==============*13*===============");
         System.out.println("=============================");
         MethodExample14.carName2(1, "BMW");
@@ -307,6 +326,7 @@ public class MethodExampleRunner {
         MethodExample14.carName2(56789L, "Henry");
         MethodExample14.carName2(8, 4.5f, "McLaren");
         MethodExample14.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample14.carName2("array element 14");
         System.out.println("==============*14*===============");
         System.out.println("=============================");
         MethodExample15.carName2(1, "BMW");
@@ -329,6 +349,7 @@ public class MethodExampleRunner {
         MethodExample15.carName2(56789L, "Henry");
         MethodExample15.carName2(8, 4.5f, "McLaren");
         MethodExample15.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample15.carName2("array element 15");
         System.out.println("==============*15*===============");
         System.out.println("=============================");
         MethodExample16.carName2(1, "BMW");
@@ -351,6 +372,7 @@ public class MethodExampleRunner {
         MethodExample16.carName2(56789L, "Henry");
         MethodExample16.carName2(8, 4.5f, "McLaren");
         MethodExample16.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample16.carName2("array element 16");
         System.out.println("==============*16*===============");
         System.out.println("=============================");
         MethodExample17.carName2(1, "BMW");
@@ -373,6 +395,7 @@ public class MethodExampleRunner {
         MethodExample17.carName2(56789L, "Henry");
         MethodExample17.carName2(8, 4.5f, "McLaren");
         MethodExample17.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample17.carName2("array element 17");
         System.out.println("==============*17*===============");
         System.out.println("=============================");
         MethodExample18.carName2(1, "BMW");
@@ -395,6 +418,7 @@ public class MethodExampleRunner {
         MethodExample18.carName2(56789L, "Henry");
         MethodExample18.carName2(8, 4.5f, "McLaren");
         MethodExample18.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample18.carName2("array element 18");
         System.out.println("==============*18*===============");
         System.out.println("=============================");
         MethodExample19.carName2(1, "BMW");
@@ -417,6 +441,7 @@ public class MethodExampleRunner {
         MethodExample19.carName2(56789L, "Henry");
         MethodExample19.carName2(8, 4.5f, "McLaren");
         MethodExample19.carName2(3.2f, "Koengsegg", 120000);
+        MethodExample19.carName2("array element 19");
         System.out.println("==============*19*===============");
         System.out.println("=============================");
         MethodExample20.carName2(1, "BMW");
@@ -439,6 +464,7 @@ public class MethodExampleRunner {
         MethodExample20.carName2(56789L, "Henry");
         MethodExample20.carName2(8, 4.5f, "McLaren");
         MethodExample20.carName2(3.2f, "Koenigsegg", 120000);
+        MethodExample20.carName2("array element 20");
         System.out.println("==============*20*===============");
 
     }

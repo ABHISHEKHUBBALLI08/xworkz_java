@@ -66,5 +66,9 @@ public class MethodExample20{
 	public static void carName2(float value,String car1,int price){
 		System.out.println("name of the car7 is "+car1+",and price is : "+price+"$"+value);//20
 	}
-	
+	public static void carName(String[] carDetails){
+		for(int i=0;i<carDetails.length;i++){
+			System.out.println(carDetails[i]);
+		}
+	}
 }

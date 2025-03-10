@@ -6,6 +6,15 @@ public class Clothes{
 				System.out.println(cName[i]);
 			}
 	}
+	public static void searchNames(){
+		String target="IPL";
+		for(int i=0;i<cName.length;i++){
+				if(cName[i]==target){
+					System.out.println("Clothes brand  name is :"+cName[i]);
+				}
+			}
+		
+	}
 	public static void listOfClothNames(String clothName){
 		if(cName!=null){
 			if(index<cName.length){

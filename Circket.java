@@ -6,6 +6,15 @@ public class Circket{
 				System.out.println(gameName[i]);
 			}
 	}
+	public static void searchNames(){
+		String target="IPL";
+		for(int i=0;i<gameName.length;i++){
+				if(gameName[i]==target){
+					System.out.println("circket name is :"+gameName[i]);
+				}
+			}
+		
+	}
 	public static void listOfCircketName(String circketName){
 		if(gameName!=null){
 			if(index<gameName.length){

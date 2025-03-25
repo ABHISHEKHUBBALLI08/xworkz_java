@@ -117,7 +117,7 @@ public class MethodExampleRunner {
         MethodExample5.carName2(29876543210L, 7, "Rolls Royce");
         MethodExample5.carName2("Aston Martin", 1234567890L, 9.5f);
         MethodExample5.carName2(56789L, "Henry");
-        MethodExample5.carName2(8, 4.5f, "McLaren");
+        MethodExample5.carName2(8, 4.5f, "McLaren");s
         MethodExample5.carName2(3.2f, "Koenigsegg", 120000);
         MethodExample5.carName2("array element 5");
         System.out.println("==============*5*==============");
